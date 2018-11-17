@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(241, 240, 240);
+}
+.nav-generico{
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    height: 4em;
+    color:#fff;
+}
+.nav-generico ul{
+    padding: 22px;
+    color:#fff;
+}
+.nav-generico ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+}
+.nav-generico ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.nav-generico ul li a:hover{
+    color: rgb(109, 225, 233);
+}
+.cuerpo-trabajo{
+    padding: 5em 8em;
+    height: 100%;
+}
+.titulo{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 31, 31);
+    padding: 5px 0px;
+}
+.sub-titulo{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 31, 31);
+}
+hr{
+    border-top: solid 2px rgb(32, 52, 95);
+}
+.lista-estudiantes{
+    margin: 15px 10px;
+}
+.img-diagrama{
+    width: 300px;
+    padding: 5px;
+}
+.formulario{
+    padding: 15px 25px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.grid-1{
+    grid: 1;
+}
+.grid-2{
+    grid: 2;
+}
