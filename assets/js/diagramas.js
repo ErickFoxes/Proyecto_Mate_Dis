@@ -9,8 +9,8 @@ function calcularDiagrama1() {
         document.getElementById("ar").value = ea;
     } else if (eW != "" && ea != "") {
         document.getElementById("Wr").value = eW;
-        document.getElementById("Ur").value = ea + eW;
-        document.getElementById("ar").value = eU;
+        document.getElementById("Ur").value = ea - - eW;
+        document.getElementById("ar").value = ea;
     } else if (eU != "" && eW != "") {
         document.getElementById("Wr").value = eW;
         document.getElementById("Ur").value = eU;
