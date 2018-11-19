@@ -738,6 +738,61 @@ function calcularDiagrama3() {
             W = eU3 - ex3 - ey3 - ez3 - ea3 - eb3 - ec3 - ed3;
             document.getElementById("Wr3").value = W;
         }
+        if (eU3 != "" && eX3 != "" && eY3 != "" && eZ3 != "" && ea3 != ""
+            && eb3 != "" && ec3 != "" && ed3 != "" && ex3 != "" && ey3 != "" && eW3 != "") {
+            z = eZ3 - ea3 - ec3 - ed3;
+            document.getElementById("zr3").value = z;
+        }
+        if (eU3 != "" && eX3 != "" && eY3 != "" && eZ3 != "" && ea3 != ""
+            && eb3 != "" && ec3 != "" && ed3 != "" && ex3 != "" && ez3 != "" && eW3 != "") {
+            y = eY3 - eb3 - ec3 - ed3;
+            document.getElementById("yr3").value = y;
+        }
+        if (eU3 != "" && eX3 != "" && eY3 != "" && eZ3 != "" && ea3 != ""
+            && eb3 != "" && ec3 != "" && ed3 != "" && ey3 != "" && ez3 != "" && eW3 != "") {
+            x = eX3 - ea3 - eb3 - ec3;
+            document.getElementById("xr3").value = x;
+        }
+        if (eU3 != "" && eX3 != "" && eY3 != "" && eZ3 != "" && ea3 != ""
+            && eb3 != "" && ec3 != "" && ex3 != "" && ey3 != "" && ez3 != "" && eW3 != "") {
+            d = eZ3 - ea3 - ec3 - ez3;
+            document.getElementById("dr3").value = d;
+        }
+        if (eU3 != "" && eX3 != "" && eY3 != "" && eZ3 != "" && ea3 != ""
+            && eb3 != "" && ed3 != "" && ex3 != "" && ey3 != "" && ez3 != "" && eW3 != "") {
+            c = eX3 - ea3 - eb3 - ex3;
+            document.getElementById("cr3").value = c;
+        }
+        if (eU3 != "" && eX3 != "" && eY3 != "" && eZ3 != "" && ea3 != ""
+            && ec3 != "" && ed3 != "" && ex3 != "" && ey3 != "" && ez3 != "" && eW3 != "") {
+            b = eY3 - ed3 - ec3 - ey3;
+            document.getElementById("br3").value = b;
+        }
+        if (eU3 != "" && eX3 != "" && eY3 != "" && eZ3 != "" && eb3 != ""
+            && ec3 != "" && ed3 != "" && ex3 != "" && ey3 != "" && ez3 != "" && eW3 != "") {
+            a = eX3 - eb3 - ec3 - ex3;
+            document.getElementById("ar3").value = a;
+        }
+        if (eU3 != "" && eX3 != "" && eY3 != "" && ea3 != "" && eb3 != ""
+            && ec3 != "" && ed3 != "" && ex3 != "" && ey3 != "" && ez3 != "" && eW3 != "") {
+            Z = ea3 - -ec3 - -ed3 - -ez3;
+            document.getElementById("Zr3").value = Z;
+        }
+        if (eU3 != "" && eX3 != "" && eZ3 != "" && ea3 != "" && eb3 != ""
+            && ec3 != "" && ed3 != "" && ex3 != "" && ey3 != "" && ez3 != "" && eW3 != "") {
+            Y = eb3 - -ec3 - -ed3 - -ey3;
+            document.getElementById("Yr3").value = Y;
+        }
+        if (eU3 != "" && eY3 != "" && eZ3 != "" && ea3 != "" && eb3 != ""
+            && ec3 != "" && ed3 != "" && ex3 != "" && ey3 != "" && ez3 != "" && eW3 != "") {
+            X = ea3 - -ec3 - -eb3 - -ex3;
+            document.getElementById("Xr3").value = X;
+        }
+        if (eX3 != "" && eY3 != "" && eZ3 != "" && ea3 != "" && eb3 != ""
+        && ec3 != "" && ed3 != "" && ex3 != "" && ey3 != "" && ez3 != "" && eW3 != "") {
+        U = ex3- -ey3- -ez3- -ea3- -eb3- -ec3- -ed3- -eW3;
+        document.getElementById("Ur3").value = U;
+    }
     }
 }
 
