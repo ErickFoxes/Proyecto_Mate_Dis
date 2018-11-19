@@ -1,0 +1,8 @@
+https://erickfoxes.github.io/Proyecto_Mate_Dis/
+
+Procedimientos especiales:
+Para cada diagrama se requiere un cantidad minima de datos para poder ser calculado.
+Diagrama 1: se requieren 2 datos minimo.
+Diagrama 2: se requieren 5 datos minimo.
+Diagrama 3: se requieren 10 datos minimo.
+Además si un calculo no puede realizarse no se mostrará error alguno.
